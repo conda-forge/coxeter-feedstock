@@ -1,5 +1,5 @@
 {% set name = "coxeter" %}
-{% set version = "0.2.0.post2" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 39065a3c4230e3cb5b0ed3e133d75d924fdeeda8f8e3b52fedd624e37477e1b3
+  sha256: 66adb9d58c57df9de4c7469cd2c6906e46ec244bb3ab9fa4addf47b3a4f14e6d
 
 build:
   noarch: python
-  number: 2
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -34,7 +34,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Tools for creating and manipulating shapes.'
+  summary: Tools for creating and manipulating shapes.
 
   description: |
     coxeter is used for working with polytopes and other shapes.
