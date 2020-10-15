@@ -27,7 +27,8 @@ requirements:
 test:
   imports:
     - coxeter
-    - coxeter.shape_classes
+    - coxeter.shapes
+    - coxeter.families
 
 about:
   home: https://github.com/glotzerlab/coxeter
