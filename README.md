@@ -5,9 +5,13 @@ Home: https://github.com/glotzerlab/coxeter
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/coxeter-feedstock/blob/master/LICENSE.txt)
 
 Summary: Tools for creating and manipulating shapes.
+
+Development: https://github.com/glotzerlab/coxeter
+
+Documentation: http://coxeter.readthedocs.io/
 
 coxeter is used for working with polytopes and other shapes.
 The package is focused on providing robust methods for computing
