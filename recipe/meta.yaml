@@ -1,5 +1,5 @@
 {% set name = "coxeter" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a047cc0a5a08912f16f759775eab9d237899caf59ca87622e65e0cc01f25a794
+  sha256: ce85dbe203e6d2f2278094592c2c293791295d257124db2caa779a8406ab1a40
 
 build:
   noarch: python
