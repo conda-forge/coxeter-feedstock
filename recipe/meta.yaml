@@ -23,7 +23,7 @@ requirements:
     - python >={{ python_min }}
     - numpy >=1.19
     - scipy >=1.0
-    - rowan >=1.20
+    - rowan >=1.2.0
 
 test:
   requires:
