@@ -1,5 +1,5 @@
 {% set name = "coxeter" %}
-{% set version = "0.10.0" %}
+{% set version = "0.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c6436aa4e8cbdf12c8330952d8223a9b7a21679b560b1d9b0522fdfb763bad60
+  sha256: b3b5cc73e4dbf341e715df9a7bae523b0d00a67815e33b956c668caeaad8aa9a
 
 build:
   noarch: python
@@ -21,9 +21,9 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - numpy >=1.10
-    - scipy
-    - rowan
+    - numpy >=1.19
+    - scipy >=1.0
+    - rowan >=1.2.0
 
 test:
   requires:
